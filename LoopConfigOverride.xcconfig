@@ -1,12 +1,12 @@
 //
-
 // Override this if you don't want the default com.${DEVELOPMENT_TEAM}.loopkit that loop uses
-// MAIN_APP_BUNDLE_IDENTIFIER = com.myname.loop
+
+//MAIN_APP_BUNDLE_IDENTIFIER = com.${DEVELOPMENT_TEAM}.loopkit
+MAIN_APP_BUNDLE_IDENTIFIER = com.massow.loopkit
 
 // Customize this to change the app name displayed
-MAIN_APP_DISPLAY_NAME = FreeAPS
-
-MAIN_APP_PRODUCT_NAME = FreeAPS
+MAIN_APP_DISPLAY_NAME = LoopMBx
+MAIN_APP_PRODUCT_NAME = LoopMBx
 
 // Features
 // SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) FEATURE_OVERRIDES_DISABLED
@@ -14,4 +14,4 @@ MAIN_APP_PRODUCT_NAME = FreeAPS
 // Assets
 INCLUDED_SOURCE_FILE_NAMES = AdditionalAssets.xcassets
 
-APPICON_NAME = CustomLoopIcon
+APPICON_NAME = CustomLoopIcon_Iron
